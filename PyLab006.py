@@ -48,5 +48,4 @@ def encrypt_vigenere(key, plaintext, alphabet):
 key = 'BLUESMURF'
 alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 message = 'Hello World, I am here'
-
 print(encrypt_vigenere(key, message, alphabet))
