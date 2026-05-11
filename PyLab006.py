@@ -1,4 +1,3 @@
-
 def vigenere_header(alphabet):
     alpha_len = len(alphabet)
     print('|    ', end='')
