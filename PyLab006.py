@@ -44,7 +44,6 @@ def encrypt_vigenere(key, plaintext, alphabet):
             )
             counter += 1
     return cipher_text
-
 key = 'BLUESMURF'
 alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 message = 'Hello World, I am here'
